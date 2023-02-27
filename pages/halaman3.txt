@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Text Formatting</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Elemen Pemformatan HTML</h1>
+        <p>Dimana Hasil pengaplikasian text formating HTML sebagai berikut: </p>
+        <p>Ini adalah <b>teks tebal</b>.</p>
+        <p>Ini adalah <strong>teks penting</strong>.</p>
+        <p>Ini adalah <i>teks miring</i>.</p>
+        <p>Ini adalah <em>teks menekankan</em>.</p>
+        <p>Ini adalah <mark>teks ditandai</mark>.</p>
+        <p>Ini adalah <small>teks kecil</small>.</p>
+        <p>Ini adalah <del>teks dicoret</del>.</p> <p>Ini adalah <ins>teks sisipan</ins>.</p>
+        <p>Ini adalah <sub>teks subscript</sub>.</p>
+        <p>Ini adalah <sup>teks superscript</sup>.</p>
+        <a href="halaman1.html">KEMBALI KE HALAMAN 1</a>
+    </body>
+</html>
