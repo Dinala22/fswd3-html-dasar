@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>From Pendaftaran SIB 2023</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+         <h1>From Pendaftaran SIB 2023 </h1>
+         <form>
+            <label for="fname">Nama Lengkap</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="nohp">No. HP</label> <br>
+            <input type="text" id="nohp" name="nohp"><br>
+
+            <label for="gender">Jenis kelamin</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Laki-Laki</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Perempuan</label><br>
+
+            <form action="/action_page.php" method="get">
+                <label for="browser">Jurusan</label><br>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers" ><br>
+                  <option value="Teknik Informatika"></option>
+                  <option value="Teknik Komputer"></option>
+                  <option value="Sistem Informasi"></option>
+                  <option value="PTIK"></option>
+                  <option value="Lainnya"></option>
+                </datalist>
+              </form>
+
+            
+            <form action="/action_page.php">
+            <label for="alamat">Alamat</label><br>
+            <textarea id="alamat" name="alamat" rows="10" cols="50">Masukkan alamat</textarea>
+            <br>
+            </form>
+            
+            <form>
+                <label for="myfile">Foto</label><br>
+                <input type="file" id="myfile" name="myfile">
+              </form> 
+            
+        <input type="submit" value="Daftar"> <br>
+
+        </form> 
+       
+
+         <a href="task4.html">KEMBALI KE HALAMAN AWAL TASK 4</a>
+    </body>
+</html>
